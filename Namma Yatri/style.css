@@ -1,0 +1,276 @@
+/* css reset */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* first container */
+.bgcolor {
+    background-color: rgb(44 47 58);
+}
+
+/* navbar design */
+.navbar {
+    padding: 37px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nev {
+    font-size: 20px;
+    color: white;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navtext {
+    width: 50%;
+    margin-top: 10px;
+}
+
+.navtext ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navtext li:hover {
+    color: rgb(252 195 44);
+}
+
+/* navbar scroll section */
+.scroll {
+    font-size: 1.1rem;
+    padding: 15px 20%;
+    color: white;
+    background-color: black;
+}
+
+/* first Section desigh */
+.first-section {
+    display: flex;
+    justify-content: center;
+}
+
+.bodyContaine .leftContent h1 {
+    font-size: 4rem;
+}
+
+.bodyContainer {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bodyContainer h1 {
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+.bodyContainer h1 span {
+    color: rgb(252 195 44);
+}
+
+.bodyContainer p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: rgb(134 139 152);
+}
+
+.heroImg img {
+    width: 85%;
+}
+
+.leftContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn {
+    margin-top: 30px;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    background-color: rgb(252 195 44);
+    border-radius: 7px;
+    border: none;
+}
+
+/* second section start */
+.second-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-container {
+    width: 75%;
+    display: flex;
+}
+
+.second-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* third section */
+.third-container {
+    background-color: rgb(44 47 58);
+}
+/* fift section */
+.second-left h1{
+font-size: 3.7rem;
+margin-bottom: 50px;
+}
+/* sixth container */
+.sixth-container {
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.six-cont{
+    width: 75%;
+}
+.cart-container {
+    display: flex;
+gap: 30px;
+}
+
+.cart-container .cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    line-height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.532);
+}
+.Hi-Tech h1{
+    font-size: 3.8rem;
+ margin: 0px 0px 35px;
+}
+.Hi-Tech h3{
+    font-size: 1.5rem;
+    margin: 0px 0px 35px;
+}
+
+/* seventh section */
+.seventh-cont {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.seventh-center{
+    width: 75%;
+    padding: 50px 0px;
+}
+.seventh-center h1{
+    font-size: 3.8rem;
+}
+
+.seventh-center a{
+    padding: 12px 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+}
+.riderbtns{
+    margin-top: 50px;
+}
+.btnblack{
+    background-color: black;
+}
+.driver-cart{
+    padding-bottom: 150px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.driver-cart {
+    display: flex;
+    justify-content: space-between;
+}
+.driver-cart .cart{
+ text-align: center;
+}
+.driver-cart .cart img{
+    margin: 40px 20px;
+}
+.driver-cart .cart p{
+    color: rgb(134 139 152);
+    font-size: 1.3rem;
+}
+.driver-cart .cart h3{
+    font-size: 1.5rem;
+}
+/* footer section */
+footer {
+    background-color: rgb(44 47 58);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-cont {
+    width: 75%;
+}
+
+.footer-left {
+    font-size: 3.125rem;
+}
+
+.footer-qr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px 0px;
+}
+
+.footer {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.footer li {
+    line-height: 30px;
+    color: rgb(134 139 152);
+}
+
+.footer div {
+    width: 25%;
+}
+
+.Address {
+    color: rgb(134 139 152);
+    line-height: 30px;
+}
+
+.copyright {
+    text-align: center;
+    margin: 40px;
+    color: rgb(134 139 152);
+}

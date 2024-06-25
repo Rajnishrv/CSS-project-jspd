@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+}
+
+.navbar { 
+    top: 0;
+    position: fixed;
+    z-index: 35;
+    background-color: white;
+    width: 100%;
+    padding: 10px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 15px rgba(128, 128, 128, 0.169);
+}
+.logo_main {
+    align-items: center;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo img {
+    width: 60px;
+}
+
+select {
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid #3d4152;
+}
+
+.navOption {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+sup {
+    color: #ffa700;
+    font-size: 10px;
+}
+
+.navOption .nevText,
+select {
+    align-items: center;
+    color: #3d4152;
+    font-weight: 600;
+}
+
+span {
+    margin: 3px;
+}
+
+.navOption .nevText:hover {
+    color: #ffa700;
+}
+
+/* What's on your mind? */
+.miancontainer {
+    position: relative;
+    margin: 12px 13.5%;
+    top: 85px;
+}
+.mainMind {
+    overflow-x: scroll;
+    box-shadow: 0px 5px 15px rgba(128, 128, 128, 0.169);
+    display: flex;
+    justify-content: center;
+}
+.item img {
+    width: 150px;
+    margin: 10px;
+}
+
+/* Top restaurant chains in Bangalore */
+.containerTop {
+    box-shadow: 0px 5px 15px rgba(128, 128, 128, 0.169);
+    margin-top: 50px;
+    padding: 60px 15px ;
+}
+
+.cardContainer {
+    display: flex;
+    overflow-x: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.cardContainer::-webkit-scrollbar,
+.mainMind::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.cardContainer .mainMind {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.cart {
+    transition: .2s;
+}
+
+.cart img {
+    border-radius: 15px;
+    height: 175px;
+    width: 270px;
+    margin: 15px;
+}
+.cart .of h3{
+    position: relative;
+    top: -50px;
+    left: 20px;
+    color:white;
+    font-weight: 900;
+}
+.cart .cardContent {
+    margin: 0px 17px;
+}
+
+.cardContent span {
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.cardContent p {
+    color: #3d4152;
+}
+
+.cart:hover {
+    transform: scale(.95);
+}
+
+/*Restaurants with online food delivery in Bangalore */
+.onlineDelevry{
+    margin-bottom: 15px;
+}
+.onlineDelevry h2{
+    margin: 15px 0px;
+    padding: 5px 0px;
+}
+
+.onlinBtbs ul{
+   
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.onlinBtbs ul li{
+    border-radius: 18px;
+    background-color: rgb(255, 255, 255);
+    padding: 7px 12px;
+    box-shadow: rgba(2, 6, 12, 0.04) 0px 2px 12px;
+    border: 1px solid rgba(219, 213, 213, 0.377);
+}
+/* second card section */
+ .secondCard img{
+    width: 240px;
+    height: 150px;
+}
+.secondCard .of h3{
+    position: relative;
+    top: -50px;
+    left: 20px;
+    color:white;
+    font-weight: 900;
+}
+.secondCardSection{
+    margin-bottom: 120px;
+    display: grid;
+    grid-template-columns: 240px 240px 240px 240px;
+    justify-content: space-between;
+}
+
+
+/* footer section start */
+#playstore{
+    justify-content: center;
+    font-family: "Basis Grotesque Pro", Arial, sans-serif !important;
+    background-color: rgb(240, 240, 245);
+   display: flex;
+   padding: 13px; 
+}
+.leftF{
+    color: #3d4152;
+    width: 32%;
+    padding: 0px 15px;
+    
+}.rightF{
+    display: flex;
+    justify-content: space-evenly;
+   width:32%;
+}
+#playstore img{
+    width: 190px;
+}
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.ftcenter{
+    margin: 50px 50px 100px;
+    width: 70%;
+}
+.footerFirst .logo h1{
+    display: inline-block;
+    font-size: 25px;
+}
+.footerFirst .logo img{
+    width: 40px;
+}
+footer ul {
+    list-style: none;
+    padding: 0; 
+}
+footer ul li{
+    color: gray;
+}
+.footerFirst {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    justify-content: space-around;
+    line-height: 35px;
+}
