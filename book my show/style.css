@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 150px;
+    height: 60px
+    
+}
+.menu button{
+    padding: 5px;
+    color: white;
+    background-color:  rgb(248, 68, 100);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.search input {
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 8px rgba(197, 194, 194, 0.58);
+    position: relative;
+    right: 150px;
+    padding: 12px 40px;
+    width: 500px;
+    border-radius: 8px;
+    
+}
+.search svg{
+    z-index: 55;
+    width: 15px;
+    position: relative;
+    top: 5px;
+    right: 110px;
+}
+.menu{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+select{
+    border: none;
+    outline: none;
+}
+
+/* second menu */
+.second-menu{
+    padding: 0px 150px 0px 135px;
+    display: flex;
+    justify-content: space-between;
+}
+.second-menu ul{
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+.left-menu ul li{
+margin: 15px;
+}
+.right-menu ul li{
+    margin: 15px;
+}
+/* hero section */
+.hero{
+    display: flex;
+    overflow: hidden;
+    
+}
+.hero img{
+    margin: 15px;
+    width: 95%;
+    border-radius: 10px;
+}
+
+/* card section */
+.cards-section{
+    
+    padding: 0px 150px 0px 150px ;
+}
+.cart{
+    width: 215px;
+    height: 450px;
+}
+.cart h3{
+    color: gray;
+}
+
+.cart img{
+    height: 350px;
+    border-radius: 8px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+}
