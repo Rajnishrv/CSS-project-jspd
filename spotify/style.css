@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    background: url(https://www.scdn.co/i/free/bubbles-dktp.svg), linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166)) rgb(108, 14, 224);
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.right {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left {
+    height: 100%;
+overflow: hidden;
+    width: 40%;
+}
+
+.left img {
+    width: 300px;
+    position: relative;
+    left: 100px;
+    top: 170px;
+}
+
+button {
+    border-radius: 25px;
+    color: black;
+    font-weight: bold;
+    padding: 15px 20px;
+    border: none;
+}
+
+.right p {
+    font-weight: bolder;
+    color: white;
+    font-size: 5rem;
+
+}
