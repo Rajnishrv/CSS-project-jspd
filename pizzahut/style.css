@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 235px;
+}
+
+.navbar .logo img {
+    width: 155px;
+}
+
+.hero-banner {
+    background-image: url(https://www.pizzahut.co.in/order/images/backgrounds/in/en-IN/home-bg-lg.d0a5b94d81d4bc86010a038f2309c5b2.jpg);
+    background-size: cover;
+    height: 50vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 190px;
+}
+
+.delivery {
+    display: flex;
+    background-color: white;
+    top: 250px;
+    position: relative;
+    width: 470px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 28px gray;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+.d-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.d-btn button {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    width: 50%;
+    border: none;
+    background-color: inherit;
+}
+
+.d-content {
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+}
+
+.d-content input,
+.d-content button {
+    font-size: 1.1rem;
+    padding: 10px;
+    text-align: left;
+    background-color: inherit;
+    outline: none;
+    border: .3px solid rgba(128, 128, 128, 0.498);
+}
+
+.d-content button {
+    color: rgba(0, 149, 255, 0.776);
+}
+
+.popular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular-deals {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.populer-img {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.populer-img img {
+    margin: 10px;
+    width: 50%;
+}
+.popular-txt{
+    display: flex;
+    align-items: center;
+}
+.popular-txt h2{
+    width: 300px;
+}
+.line{
+    width:600px;
+    margin: 1px;
+    height: 2px;
+    background-color: gray;
+}
+.popular-deals .popular-btn{
+width: 100%;
+background-color: green;
+color: white;
+font-size: 1.09rem;
+padding: 15px;
+border-radius: 8px;
+border: none;
+}
+
+/* footer section start */
+footer {
+    margin-top: 30px;
+    padding: 50px 0px 10px 0px;
+    background-color: black;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.foot-top {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.foot-top ul {
+    list-style: none;
+    padding: 0;
+}
+
+.download-app img {
+    margin: 50px 10px;
+    width: 130px;
+}
+
+.help {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.follow h3,
+.follow .bx {
+    font-size: 1.5rem;
+    margin: 8px;
+}
+.follow{
+    padding-right: 150px;
+}
+
+.left button {
+    margin-left: 15px;
+    padding: 10px 15px;
+    font-size: 1.07rem;
+    border-radius: 5px;
+}
+
+.bottom {
+    margin-top: 20px;
+    line-height: 20px;
+    width: 70%;
+    align-items: center;
+    text-align: center;
+    color: gray;
+    font-size: 0.8rem;
+
+}
+
+.bottom img {
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: white;
+    width: 75px;
+}
