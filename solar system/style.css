@@ -240,7 +240,7 @@ body {
     }
 }
 
-.orbit-right {
+.orbit-ring {
     grid-area: 1 / 1 / -1 / -1;
     height: calc(2 * (100% - var(--planet-diameter) / 2 - var(--sun-diameter) / 2 - var(--sun-margin)));
     aspect-ratio: 1;
