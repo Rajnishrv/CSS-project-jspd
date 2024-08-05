@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    font-size: 1.3rem;
+    padding: 10px 210px;
+    display: flex;
+    box-shadow: 0px 0px 1px gray;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.search input {
+    width: 400px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 3px rgba(128, 128, 128, 0.537);
+}
+
+.nav-right {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.login {
+    color: red;
+}
+
+/* main section */
+
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 75%;
+}
+
+/* checked section */
+.check {
+
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding: 25px 10px 35px 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 3px rgba(128, 128, 128, 0.537);
+}
+.check button,.check input {
+    text-align: left;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    margin: 10px;
+    padding: 15px;
+    border: none;
+    box-shadow: 0px 0px 3px rgba(128, 128, 128, 0.537);
+    outline: none;
+
+    
+}
+.check input{
+    width: 80%;
+}
+.check button{
+    width: 220px;
+}
+.btn-red{
+    background-image: linear-gradient(to right, #ff433a, #ff577c);
+}
+
+/* collection section */
+.collections {
+    /* box-shadow: 0px 0px 8px gray; */
+
+}
+
+.card {
+    width: 300px;
+    line-height: 23px;
+}
+
+.card .image {
+    width: 200px;
+    height: 130px;
+    background-image: url("https://www.holidify.com/images/bgImages/CHANDIGARH.jpg");
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.card-section {
+    margin: 15px 0px;
+    display: flex;
+}
+
