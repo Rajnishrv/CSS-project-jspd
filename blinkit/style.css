@@ -101,6 +101,16 @@
     margin: 10px;
 }
 
+
+/* product catogaruy */
+.cat-card img{
+    width: 120px;
+}
+.product-catg{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* footer section start */
 footer {
     margin: 40px 0px;
